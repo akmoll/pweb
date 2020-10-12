@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+  <h1>Pemrograman Web</h1>
+  <p>Mari belajar Pemrograman Web</p> 
+</div>
+  
+<div class="container">
+<h3> Apa saja yang dipelajari dalam Pemrograman Web ? </h3>
+<p></p>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>HTML</h3>
+      <p>Hypertext Markup Language adalah bahasa markah standar untuk dokumen yang dirancang untuk ditampilkan 			di peramban internet.
+	  </p>
+    </div>
+    <div class="col-sm-4">
+      <h3>CSS</h3>
+      <p>Cascading Style Sheet merupakan aturan untuk mengatur beberapa komponen dalam sebuah web sehingga akan 		lebih terstruktur dan seragam. CSS bukan merupakan bahasa pemograman
+	  </p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Framework</h3>        
+      <p>kerangka kerja perangkat lunak adalah abstraksi di mana perangkat lunak yang menyediakan 					fungsionalitas generik dapat diubah secara selektif oleh kode tambahan yang ditulis pengguna, sehingga 			menyediakan perangkat lunak khusus aplikasi.
+	  </p>
+    </div>
+  </div>
+</div>
+
+<nav class="navbar navbar-expand-sm bg-light">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Rencana Pembelajaran</a>
+    </li>
+  </ul>
+</nav>
+<br>
+
+<div class="container-fluid">
+  <h3>Selamat Datang dalam Pemrograman Web</h3>
+  <p>Terima Kasih telah datang, Berikut merupakan Informasi tentang Mahasiswa Pemrograman Web.</p>
+</div>
+
+<div class="container">
+  <h2>Daftar Mahasiswa</h2>
+  <p>Berikut mahasiswa yang telah mendaftar di Mata Kuliah Pemrograman Web :</p>            
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Nama Depan</th>
+        <th>Nama Belakang</th>
+        <th>Kelas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Rahmat</td>
+        <td>Agung</td>
+        <td>A</td>
+      </tr>
+      <tr>
+        <td>Budi</td>
+        <td>Mulya</td>
+        <td>B</td>
+      </tr>
+      <tr>
+        <td>Bejo</td>
+        <td>Udin</td>
+        <td>C</td>
+      </tr>
+      <tr>
+        <td>Jason</td>
+        <td>Axel</td>
+        <td>D</td>
+      </tr>
+      <tr>
+        <td>Dafa</td>
+        <td>Alaudin</td>
+        <td>E</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+  
+<div class="container">
+  <h2>Pendaftaran Mata Kuliah Pemrograman Web</h2>
+  <p>Bagi Mahasiswa yang ingin mengambil Mata Kuliah Pemrograman Web Silahkan Mengiri Formulir dibawah</p>
+  <form action="/action_page.php">
+    <div class="form-group">
+      <label for="usr">Name Depan</label>
+      <input type="text" class="form-control" id="usr" name="namad">
+    </div>
+	<div class="form-group">
+      <label for="usr">Name Belakang</label>
+      <input type="text" class="form-control" id="usr" name="namab">
+    </div>
+	<label for="sel1">Select list (select one):</label>
+      <select class="form-control" id="sel1" name="sellist1">
+        <option>A</option>
+        <option>B</option>
+        <option>C</option>
+        <option>D</option>
+		<option>E</option>
+      </select>
+	<p></p>
+      
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
+
+</body>
+</html>
